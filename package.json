@@ -8,12 +8,6 @@
     "test": "jest",
     "postinstall": "husky install"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cristianobento/nodejs-clean-architecture.git"
