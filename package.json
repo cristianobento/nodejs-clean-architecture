@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
@@ -12,8 +12,8 @@
       "git add"
     ]
   },
-  "husky":{
-    "hooks":{
+  "husky": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
   },
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/cristianobento/nodejs-clean-architecture#readme",
   "devDependencies": {
     "husky": "^7.0.1",
+    "jest": "^27.0.6",
     "lint-staged": "^11.0.1",
     "standard": "^16.0.3"
   }
