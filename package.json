@@ -8,6 +8,9 @@
     "test": "jest",
     "postinstall": "husky install"
   },
+  "standard":{
+    "env": ["jest"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cristianobento/nodejs-clean-architecture.git"
