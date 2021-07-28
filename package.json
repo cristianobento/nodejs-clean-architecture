@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest --passWithNoTests",
+    "test": "jest --watch --silent --colors --noStackTrace",
+    "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace",
     "postinstall": "husky install"
   },
   "standard":{
